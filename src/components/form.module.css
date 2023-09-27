@@ -1,0 +1,26 @@
+.form {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 75%;
+	margin-left: 40px;
+}
+
+.btnContainer {
+	display: flex;
+	width:100%;
+	margin-left: 40px;
+}
+.btnHr {
+	border-bottom: 1px solid hsl(0, 0%, 86%);
+	margin: auto;
+	width: 100%;
+}
+.btn {
+	background-color: blueviolet;
+	border-style: none;
+	padding: 20px;
+	width: 100px;
+	border-radius: 50%;
+}
